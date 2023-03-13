@@ -12,9 +12,15 @@ const num4=6
 const mod = num3 % num4
 
 
+let setss=[0,20,10,12,19]
+let nums='';
 
- let max = Math.max(0,20)
-module.exports={
-    num1,num2,multiply,max,mod,random
-}
+console.log(...setss)
+
+let max = Math.max(...setss)
+
 console.log(max)
+
+
+
+
